@@ -19,4 +19,6 @@ exported_pipeline = make_pipeline(
 
 exported_pipeline.fit(training_features, training_classes)
 results = exported_pipeline.predict(testing_features)
+
+print testing_features
 print results
